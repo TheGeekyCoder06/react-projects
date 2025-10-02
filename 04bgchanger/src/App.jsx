@@ -5,16 +5,12 @@ function App() {
   const [color, setColor] = useState('yellow');
 
   const colors = [
-    'red',
-    'blue',
-    'green',
-    'yellow',
-    'purple',
-    'pink',
-    'gray',
-    'black',
-    'white',
-  ];
+    '#ff6363', // vibrant red
+    '#ffc556', // sunny yellow
+    '#43b929', // bright green
+    '#4a72ff', // electric blue
+    '#be4aed', // bright magenta
+];
 
   return (
     <>
